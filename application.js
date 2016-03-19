@@ -7,7 +7,13 @@ module.exports = new ContainershipPlugin({
 
     initialize: function(core){
         core.logger.register("containership.plugin.firewall");
-        var firewall = new Firewall(core);
+
+        var firewall = new Firewall({
+            options: {},
+            config: this.get_config("core"),
+            core: core
+        });
+
         firewall.enable();
     },
 
