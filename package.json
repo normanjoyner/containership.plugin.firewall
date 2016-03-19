@@ -1,0 +1,31 @@
+{
+  "name": "containership.plugin.firewall",
+  "version": "0.0.0",
+  "description": "Offical firewall plugin for ContainerShip",
+  "main": "application.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "ContainerShip Developers <developers@containership.io>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "async": "^2.0.0-rc.1",
+    "containership.plugin": "^0.3.0",
+    "lodash": "^3.0.0",
+    "mocha": "^2.4.5",
+    "tesserarius": "0.0.2"
+  },
+  "keywords": [
+    "containership",
+    "firewall",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/containership/containership.plugin.firewall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/containership/containership.plugin.firewall/issues"
+  },
+  "homepage": "https://github.com/containership/containership.plugin.firewall"
+}
