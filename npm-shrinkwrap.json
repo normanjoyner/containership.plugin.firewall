@@ -131,9 +131,9 @@
       }
     },
     "tesserarius": {
-      "version": "0.0.2",
-      "from": "tesserarius@",
-      "resolved": "https://registry.npmjs.org/tesserarius/-/tesserarius-0.0.2.tgz",
+      "version": "0.0.3",
+      "from": "tesserarius@0.0.3",
+      "resolved": "https://registry.npmjs.org/tesserarius/-/tesserarius-0.0.3.tgz",
       "dependencies": {
         "async": {
           "version": "1.5.2",
@@ -149,11 +149,6 @@
           "version": "4.6.1",
           "from": "https://registry.npmjs.org/lodash/-/lodash-4.6.1.tgz",
           "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.6.1.tgz"
-        },
-        "mocha": {
-          "version": "2.4.5",
-          "from": "https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz",
-          "resolved": "https://registry.npmjs.org/mocha/-/mocha-2.4.5.tgz"
         },
         "commander": {
           "version": "2.3.0",
@@ -225,15 +220,15 @@
           "from": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz",
           "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz"
         },
-        "ms": {
-          "version": "0.7.1",
-          "from": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz",
-          "resolved": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz"
-        },
         "moment": {
           "version": "2.12.0",
           "from": "https://registry.npmjs.org/moment/-/moment-2.12.0.tgz",
           "resolved": "https://registry.npmjs.org/moment/-/moment-2.12.0.tgz"
+        },
+        "ms": {
+          "version": "0.7.1",
+          "from": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz",
+          "resolved": "https://registry.npmjs.org/ms/-/ms-0.7.1.tgz"
         },
         "sigmund": {
           "version": "1.0.1",
